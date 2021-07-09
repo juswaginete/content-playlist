@@ -1,0 +1,28 @@
+.button-click-edit{
+  width: 200px;
+}
+.span-design{
+  display: flex;
+  justify-content: flex-start;
+
+  .icon-design{
+    color: darkorange;
+    font-size: 25px;
+    margin-right: 2px;
+    font-weight: bold;
+  }
+  .text-design{
+    color: white;
+    font-size: 25px;
+    margin-top: 3px;
+    font-weight: bold;
+  }
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+

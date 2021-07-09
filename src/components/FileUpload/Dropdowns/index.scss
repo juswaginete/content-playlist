@@ -1,0 +1,18 @@
+.menu-item {
+  width: 150px;
+}
+
+.dropdown-selection {
+  svg {
+    width: 100%;
+    
+  }
+}
+
+.dropdown-selection-container {
+  position: absolute;
+  z-index: 2;
+  
+  margin-left: 139px;
+  margin-top: -8px;
+}

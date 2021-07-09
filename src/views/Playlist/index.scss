@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  width: 0 !important;
+}
+
+.test-test{
+  
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.dragging {
+  background: transparent;
+  font-family: sans-serif;
+}
+
+.react-beatiful-dnd-copy {
+  background: lightblue;
+}
+
+.react-beatiful-dnd-copy ~ [data-rbd-placeholder-context-id] {
+  display: none !important;
+}
+
+.grid-4-alignment{
+  display: flex;
+  flex-wrap: wrap;
+}
+.drag {
+  padding: 10px;
+  /* border: 1px solid #aaa; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drop-area {
+  padding: 10px;
+  border: 1px dashed #777; 
+  display: flex;
+  flex-wrap: wrap; 
+  min-height: 250px;
+
+}
+
+.dropdown-drag{
+  margin-left: 110px;
+  margin-top: -2px;
+}

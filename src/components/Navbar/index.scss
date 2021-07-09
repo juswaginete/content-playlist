@@ -1,0 +1,28 @@
+.appbar-header {
+  background-color: #252525 !important;
+  position: relative !important;
+  box-shadow: none !important;
+  flex-direction: row !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.auditive-logo-img {
+  padding: 12px;
+}
+
+.app-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  color: #f60;
+  font-size: 30px;
+
+  svg {
+    font-size: 30px;
+    padding: 0 5px;
+  }
+}
+
+.icon-label-btn {
+  font-size: 45px !important;
+}

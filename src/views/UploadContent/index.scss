@@ -1,0 +1,105 @@
+/*Button Design Upper right*/
+.buttonStyle {
+  width: 150px;
+  max-width: 150px; 
+  min-width: 100px;
+}
+
+.title {
+  color: #f60;
+  font-weight: bold;
+}
+
+
+.dashboard-content.container {
+  padding: .5rem 15px 0 15px;
+  .dashboard-content.main-menu {
+    margin-top: 48px;
+    text-align: center;
+
+  .positionButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+  }
+  
+  /*For title handter upper left design*/
+  .positionText {
+    display: flex;
+    justify-content: flex-start;
+
+    .inner-content {
+      padding: 10px;
+
+      svg {
+        font-size: 50px;
+        margin-top: -13px;
+        color: #f60;
+      }
+    }
+  }
+}
+
+
+/* For Media Card Content Designs*/
+.card-main {
+  margin-top: 50px;
+  min-height: 300px;
+  background-color: #252525;
+  margin-bottom: 30px;
+
+  .card-content {
+    background-color: #252525;
+
+    .card-box {
+      background-color: 252525;
+
+      .card-dropdowns {
+        background-color: #f60;     
+      }
+      .folder-icon {
+        color: white;
+      }
+
+      .content-folder {
+        color: white;
+        margin-right: 20px;
+        margin-left: 15px;
+        .toggle-container {
+          border-style: none;
+        }
+        &:hover {
+          .folder-icon {
+            color: #f60;
+          }
+          .content-folder-label {
+            color: #f60;
+          }
+        }
+        
+        .content-folder-label {
+          word-wrap: break-word;
+          width: 200px;
+        }
+
+      }
+      .media-cards {
+        margin: 10px;
+        width: 100px;
+      }
+    }
+    
+    .grid-menu-container {
+      padding-left: "40px";
+      padding-right: "40px";
+    
+    }
+  }
+
+  /*For Card Header Design*/
+  .card-header {
+    // min-height: 40px;
+    background-color: #252525;
+  }
+}
+}

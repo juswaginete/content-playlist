@@ -1,0 +1,133 @@
+.login-container {
+  height: 100%;
+  min-height: 100%;
+  padding-top: 3rem;
+}
+
+.login-inner {
+  background-color: #252525;
+  opacity: 0.9;
+  padding: 40px;
+
+  h3 {
+  color: #f60;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  font-size: 1.75rem;
+  }
+
+  .credentials-input-field {
+    margin-bottom: 1rem;
+    margin-top: 0px;
+
+    input {
+      height: 24px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      color: #495057;
+      background-color: #fff;
+      border: 1px solid rgba(0,0,0,.15);
+    }
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  .network-select-field {
+    margin-bottom: 1rem;
+    margin-top: .4rem;
+    color: #fff;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+
+    .MuiFormLabel-root {
+      color: #fff;
+    }
+
+    .MuiInputBase-root {
+      border: 1px solid #fff;
+
+      #network-select, svg {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.next-button {
+  min-width: 150px !important;
+  background-color: #f60 !important;
+  border-color: #f60 !important;
+  color: #fff !important;
+  border-radius: unset !important;
+  margin-right: 5px !important;
+}
+
+.back-button {
+  min-width: 150px !important;
+  background-color: #f60 !important;
+  border-color: #f60 !important;
+  color: #fff !important;
+  border-radius: unset !important;
+  margin-right: 5px !important;
+}
+
+.login-button {
+  min-width: 150px !important;
+  background-color: #f60 !important;
+  border-color: #f60 !important;
+  color: #fff !important;
+  border-radius: unset !important;
+  margin-right: 5px !important;
+}
+
+
+
+
+.link-title h1 {
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.span-orange {
+  color: #f60;
+}
+
+.instorex-logo-container {
+  margin: auto;
+  margin-top: 20px;
+  width: 122px;
+
+  .instorex-logo-img {
+    vertical-align: middle;
+    border-style: none;
+    width: inherit;
+  }
+}
+
+.remember-me-label {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  .remember-me-btn {
+    .MuiSvgIcon-root {
+      color: #fff;
+    }
+  }
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}

@@ -1,0 +1,21 @@
+
+
+.menu-item {
+    width: 150px;
+  }
+  
+  .dropdown-selection {
+    svg {
+      width: 100%;
+      
+    }
+  }
+  
+  .playlist-dropdown-selection.container {
+    position: absolute;
+    z-index: 2;
+    margin-left: 110px;
+    margin-top: -2px;
+    width: 0% !important;
+  }
+ 
